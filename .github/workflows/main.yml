@@ -53,17 +53,15 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 465
-          useremail: ${{secrets.EMAIL_USERNAME}}
+          username: ${{secrets.EMAIL_USERNAME}}
           password: ${{secrets.EMAIL_PASSWORD}}
           subject: Phoenix Inwarranty Flow Test Execution Notification
-          to: neeraj.vishwanath@outlook.com
+          to: neerajvishwanath@gmail.com
           from: ${{secrets.EMAIL_USERNAME}}
           body: |
                 Hi,
                 Phoenix Inwarranty flow tests has been executed. The Report has been published and the 
                 URL is: https://neerajvishwanath.github.io/Phoenix-In-warranty-flow-/
-
-                Thanks
         
 
 
