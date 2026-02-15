@@ -6,7 +6,7 @@ on:
   workflow_dispatch: 
   schedule:
     - cron : 00 06 * * 1
-    #- cron : 30 02 * * * # 8 am IST
+    - cron : 30 02 * * * # 8 am IST
     #- cron : 00 14 * * * # 7: 30 pm IST 
     #- cron : 00 06 * * 1-5  # 11:30 am IST Monday to Friday
 
